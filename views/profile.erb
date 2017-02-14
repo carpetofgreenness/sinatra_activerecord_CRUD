@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile</title>
+</head>
+<body>
+<h1><%=@user.name + "'s Profile!"%></h1>
+<p><a href="/sign-out">Sign Out</a></p>
+<h2>Email: <%=@user.email%></h2>
+<img src=<%=@user.profpic%>>
+<p><%=@user.quote%></p>
+</body>
+</html>
